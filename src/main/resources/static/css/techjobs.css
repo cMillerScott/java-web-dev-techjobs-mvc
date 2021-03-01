@@ -7,7 +7,7 @@ td, th {
 }
 
 th {
-    text-align: center;
+    text-align: right;
 }
 
 td {
@@ -19,14 +19,21 @@ tr:nth-child(odd) {
 }
 
 .centeredTable {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 30px auto;
+    border: 1px solid #e4e4e4;
+    width: 95vw;
+    height: 95vh;
+    text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 table.job-listing {
     margin: 30px auto;
     border: 1px solid #e4e4e4;
-    width: 80%;
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 table.job-listing td:first-child {
@@ -43,4 +50,8 @@ label {
 
 .centered {
     text-align: center;
+}
+
+ul {
+list-style-type: none;
 }
